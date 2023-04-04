@@ -14,7 +14,6 @@ export default function CardProduct({product, id}) {
             <CardMedia
             component="img"
             height="600"
-            image={product.imagen}
             alt={product.nombre}
             />
             <CardContent>

@@ -4,10 +4,10 @@ import { Grid } from "@mui/material";
 const ItemListFiltered = ({products, estado}) => {
     let titulo = "";
     if (estado == "no") {
-        titulo = "nuevas";
+        titulo = "tazas";
     }
     else{
-        titulo = "usadas";
+        titulo = "Jarrones";
     }
     return (
         <div className="MainContainer">

@@ -34,8 +34,8 @@ export default function CategoryButton() {
             'aria-labelledby': 'basic-button',
             }}
         >
-            <Button href="Nuevas">Nuevas</Button>
-            <Button href="Usadas">Usadas</Button>
+            <Button href="Jarrones">Jarrones</Button>
+            <Button href="Tazas">Tazas</Button>
         </Menu>
         </div>
     );

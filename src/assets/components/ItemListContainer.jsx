@@ -4,7 +4,7 @@ import { Grid } from "@mui/material";
 const ItemListContainer = ({products}) => {
     return (
         <div className="MainContainer">
-        <h1>Todas las figuras:</h1>
+        <h1>Todos nuestros objetos</h1>
         <Grid container spacing={1}>
             {products.map((product, id) => (
         <Grid item xs={3}><CardProduct key={id} product={product} id={id} /></Grid>))}
